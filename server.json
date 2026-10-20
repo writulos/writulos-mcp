@@ -5,7 +5,7 @@
   "version": "1.0.3",
   "websiteUrl": "https://scribe.writulos.com",
   "repository": {
-    "url": "https://github.com/Triumphist230/writulos-mcp",
+    "url": "https://github.com/writulos/writulos-mcp",
     "source": "github"
   },
   "packages": [

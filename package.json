@@ -24,10 +24,10 @@
   "homepage": "https://scribe.writulos.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Triumphist230/writulos-mcp.git"
+    "url": "git+https://github.com/writulos/writulos-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/Triumphist230/writulos-mcp/issues"
+    "url": "https://github.com/writulos/writulos-mcp/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",

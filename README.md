@@ -81,7 +81,7 @@ Generate markdown documentation for up to 20 files in one request.
 ## Source and issues
 
 This repository is a copy of the server, updated on every release. Report bugs
-and ask questions in its [issues](https://github.com/Triumphist230/writulos-mcp/issues).
+and ask questions in its [issues](https://github.com/writulos/writulos-mcp/issues).
 
 ## License
 
