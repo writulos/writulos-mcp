@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.writulos/scribe",
+  "description": "Generate clean markdown documentation for your code — one file, or up to 20 in one batch.",
+  "version": "1.0.3",
+  "websiteUrl": "https://scribe.writulos.com",
+  "repository": {
+    "url": "https://github.com/Triumphist230/writulos-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "writulos-mcp",
+      "version": "1.0.3",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "WRITULOS_API_KEY",
+          "description": "Your Writulos Scribe API key, from https://scribe.writulos.com/dashboard/api-keys",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "WRITULOS_OUTPUT_DIR",
+          "description": "Directory for the run log (writulos.log). Defaults to \"docs\", relative to the project root.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "filepath"
+        },
+        {
+          "name": "WRITULOS_PROJECT_ROOT",
+          "description": "Project root the run log is written under. Defaults to the working directory.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "filepath"
+        },
+        {
+          "name": "WRITULOS_API_URL",
+          "description": "Override the API base URL, for testing against another deployment. Defaults to https://scribe.writulos.com/api",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

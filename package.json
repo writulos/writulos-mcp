@@ -1,0 +1,39 @@
+{
+  "name": "writulos-mcp",
+  "version": "1.0.3",
+  "description": "MCP server for Writulos — generate code documentation inside Cursor, Claude Desktop, and any MCP-compatible AI agent.",
+  "mcpName": "com.writulos/scribe",
+  "main": "index.js",
+  "bin": {
+    "writulos-mcp": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "writulos",
+    "mcp",
+    "documentation",
+    "cursor",
+    "ai",
+    "codedocs"
+  ],
+  "author": "Neville Mathew (https://x.com/nevillemathew__)",
+  "license": "MIT",
+  "homepage": "https://scribe.writulos.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Triumphist230/writulos-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Triumphist230/writulos-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25 || ^4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
